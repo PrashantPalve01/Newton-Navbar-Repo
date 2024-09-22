@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        nav{
+            display: flex;
+            background:linear-gradient(to right,rgb(25, 58, 140) ,black);
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        nav div:first-child{
+            width: 40%;
+        }
+        nav div:last-child{
+            width: 60%;
+        }
+        ul{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+        ul li{
+            display: inline;
+        }
+        img{
+            height: 40px;
+        }
+        button{
+            background-color: rgb(0, 102, 255);
+            border-radius: 10px;
+            padding: 10px 15px;
+            border: none;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white; 
+            font-size: 17px;
+        }
+        sup{
+            background-color: rgb(255, 231, 150);
+            border-radius: 10px;
+            color: black;
+            padding: 2px 6px;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <img src="https://cdn.prod.website-files.com/62e8d2ea218fb7676b6892a6/63a9a311ecd826aa5be44d4e_NS%20Logo%20primary%20white-p-500.png" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Data Science & Al</a></li>
+                <li><a href="">B. Tech in CS & AI <sup>NEW</sup></a></li>
+                <li><a href="">Newton Edge</a></li>
+                <li><a href="">Refer & Earn</a></li>
+                <li><a href="">More</a></li>
+                <li><a href="#"><button>Sign up</button></a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
